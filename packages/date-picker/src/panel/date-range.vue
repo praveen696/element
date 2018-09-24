@@ -231,11 +231,11 @@
       },
 
       leftLabel() {
-        return this.leftDate.getFullYear() + ' ' + this.t('el.datepicker.year') + ' ' + this.t(`el.datepicker.month${ this.leftDate.getMonth() + 1 }`);
+        return this.t(`el.datepicker.month${ this.leftDate.getMonth() + 1 }`) + ' ' + this.leftDate.getFullYear();
       },
 
       rightLabel() {
-        return this.rightDate.getFullYear() + ' ' + this.t('el.datepicker.year') + ' ' + this.t(`el.datepicker.month${ this.rightDate.getMonth() + 1 }`);
+        return this.t(`el.datepicker.month${ this.rightDate.getMonth() + 1 }`) + ' ' + this.rightDate.getFullYear();
       },
 
       leftYear() {
